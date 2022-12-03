@@ -1,0 +1,32 @@
+@import url(./normalize.css);
+@import url(./reset.css);
+
+/* 기본 스타일 */
+*,*::after,*::before {
+  box-sizing: border-box; 
+}
+/* 헤더 */
+.header {
+  background-color: lightcoral;
+  display: flow-root;
+}
+/* 로고 */
+.header .logo {
+  background-color: aqua;
+  float: left;
+}
+/* 메뉴 */
+.header .menu {
+  
+  display: flex;
+  justify-content: space-around;
+}
+/* 메인 */
+.main {
+  background-color: lightseagreen;
+  min-height: 450px;
+}
+/* 푸터 */
+.footer {
+  background-color: lightskyblue;
+}
