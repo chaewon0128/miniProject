@@ -5,27 +5,60 @@
 *,*::after,*::before {
   box-sizing: border-box; 
 }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+}
+/* 링크 스타일 */
+  a {
+    text-decoration: none;
+    color: inherit;
+    
+  }
+
 /* 헤더 */
 .header {
   background-color: lightcoral;
+  padding: 10px 60px;
+  position: relative; 
   display: flow-root;
+  
 }
+
 /* 로고 */
 .header .logo {
   background-color: aqua;
-  float: left;
+  font-size: 35px;
+  position: absolute;
 }
+
 /* 메뉴 */
 .header .menu {
-  
+  background-color: rgb(149, 255, 0);
+  float: right;
   display: flex;
-  justify-content: space-around;
 }
+.header li {
+  display: inline-block;
+  padding: 10px;
+}
+.menu a {
+  padding: 6px 10px;
+  display: inherit;
+}
+
+/* 네비게이션 */
+.nav_bar {
+  background-color: darkorchid;
+  height: 50vh;
+}
+
 /* 메인 */
 .main {
   background-color: lightseagreen;
-  min-height: 450px;
+  min-height: 600px;
 }
+
 /* 푸터 */
 .footer {
   background-color: lightskyblue;
