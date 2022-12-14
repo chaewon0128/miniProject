@@ -135,10 +135,47 @@ a {
   right: 80px;
   border: 0;
   background-color: transparent;
+}
 
+/* 인포메이션 */
+.information {
+  width:450px;
+  background-color: cyan;
+  padding: 30px;
+  margin: 10px;
+  display: flow-root;
+}
+.information-title {
+  background-color: crimson;
+  display: inline-block;
+
+}
+.information-thumbnail {
+  float: left;
+  margin-right: 10px;
+
+}
+.information-more a {
+  display: inline-block;
+  padding: 5px 0;
+  color: blue;
 }
 /* 푸터 */
 .footer {
-  height: 100vh;
-  background-color: lightgrey;
+  background-color: black;
+  color: white;
+  padding: 48px 50px 0 50px;
+ 
+}
+.footer-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.footer-inner {
+ display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+ 
 }
